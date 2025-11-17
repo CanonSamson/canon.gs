@@ -17,7 +17,7 @@ export default function Home () {
               />
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2'>
-              I building Nigeria Creators
+              I&apos;m building Nigeria Creators
               <span className='inline-flex relative group/apps gap-2 sm:gap-0'>
                 <a
                   href='#'
