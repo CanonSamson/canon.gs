@@ -13,7 +13,7 @@ export default function Home () {
               <img
                 src='/profile.png'
                 alt='Avatar'
-                className='w-10 h-10 rounded-full'
+                className='w-10 h-10 object-cover rounded-full'
               />
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2'>
