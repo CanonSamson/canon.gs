@@ -57,7 +57,12 @@ export default function Home () {
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2 mt-10'>
               <span>I also post regularly on these platforms</span>
               <span className='inline-flex relative group/socialmedia gap-2 sm:gap-0'>
-                <div className='relative group/twitter'>
+                <a
+                  href='https://x.com/canon_g_s'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative group/twitter'
+                >
                   <img
                     src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/1200px-X_logo.jpg'
                     alt='Twitter'
@@ -66,8 +71,13 @@ export default function Home () {
                   <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/twitter:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     @canon_g_s
                   </span>
-                </div>
-                <div className='relative group/instagram'>
+                </a>
+                <a
+                  href='https://www.instagram.com/canon_gs/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative group/instagram'
+                >
                   <img
                     src='https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg'
                     alt='Instagram'
@@ -76,8 +86,13 @@ export default function Home () {
                   <span className='absolute -top-8 left-1/2 -translate-x-10 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/instagram:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     @canon_gs
                   </span>
-                </div>
-                <div className='relative group/tiktok'>
+                </a>
+                <a
+                  href='https://www.tiktok.com/@canon__gs'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative group/tiktok'
+                >
                   <img
                     src='https://thumbs.dreamstime.com/b/tiktok-social-media-app-icon-tiktok-social-media-app-icon-square-shape-vector-illustration-269930887.jpg'
                     alt='TikTok'
@@ -86,8 +101,13 @@ export default function Home () {
                   <span className='absolute -top-8 left-1/2 -translate-x-8 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/tiktok:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     @canon__gs
                   </span>
-                </div>
-                <div className='relative group/linkedin'>
+                </a>
+                <a
+                  href='https://www.linkedin.com/in/canon-samson/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative group/linkedin'
+                >
                   <img
                     src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s'
                     alt='LinkedIn'
@@ -96,7 +116,7 @@ export default function Home () {
                   <span className='absolute -top-8 left-1/2 -translate-x-2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/linkedin:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     @canon-samson
                   </span>
-                </div>
+                </a>
               </span>
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2 mt-8'>
