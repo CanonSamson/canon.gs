@@ -17,88 +17,119 @@ export default function Home () {
               />
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2'>
-              I&apos;m building Nigeria Creators
+              I build mobile/web apps
               <span className='inline-flex relative group/apps gap-2 sm:gap-0'>
                 <a
                   href='#'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='relative group/ellie'
+                  className='relative group/nigeria-creators sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 z-10'
                 >
                   <img
                     src='/apps/nigeria-creator.png'
                     alt='Nigeria Creators'
-                    className='w-10 h-10 sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 relative z-10 rounded-xl cursor-pointer border border-gray-200 shadow-sm'
+                    className='w-10 h-10 rounded-xl cursor-pointer border border-gray-200 shadow-sm'
                   />
-                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 sm:group-hover/ellie:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 sm:group-hover/nigeria-creators:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     Connect creators in Nigeria with brands
                   </span>
                 </a>
+                <a
+                  href='https://doxahealth.ng/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative group/doxa sm:transform sm:rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-2 transition-all duration-200 z-20'
+                >
+                  <img
+                    src='/apps/doxa.jpg'
+                    alt='Doxa'
+                    className='w-10 h-10 rounded-xl cursor-pointer'
+                  />
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/doxa:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                    Doxa -  Connect patients with top-rated doctors
+                  </span>
+                </a>
+                <a
+                  href='#'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative group/ficago sm:transform sm:-rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-4 sm:-translate-x-2 transition-all duration-200 z-30'
+                >
+                  <img
+                    src='/apps/ficago.png'
+                    alt='Ficago'
+                    className='w-10 h-10 rounded-xl cursor-pointer'
+                  />
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/ficago:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                    Ficago - Helping Nigerians access home services faster.
+                  </span>
+                </a>
               </span>
+              
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2'>
-              <span>and make youtube videos about building</span>
+              <span>and create YouTube videos about building products</span>
               <a
-                href='https://www.youtube.com/@Canon_gs'
+                href='https://www.youtube.com/@CanonSamson'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='relative group'
+                className='relative group sm:transform sm:rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-2 transition-all duration-200 z-10'
               >
                 <img
                   src='https://cdn2.iconfinder.com/data/icons/2018-social-media-app-logos/1000/2018_social_media_popular_app_logo_youtube-512.png'
                   alt='YouTube'
-                  className='w-10 h-10 inline-block align-middle rounded-xl cursor-pointer sm:rotate-6 sm:hover:rotate-0 transition-all duration-200'
+                  className='w-10 h-10 inline-block align-middle rounded-xl cursor-pointer'
                 />
                 <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
-                  @Canon_gs
+                  @CanonSamson
                 </span>
               </a>
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2 mt-10'>
-              <span>I also post regularly on these platforms</span>
+              <span>I also share updates regularly on these platforms:</span>
               <span className='inline-flex relative group/socialmedia gap-2 sm:gap-0'>
                 <a
-                  href='https://x.com/canon_g_s'
+                  href='https://x.com/canon__gs'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='relative group/twitter'
+                  className='relative group/twitter sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 z-10'
                 >
                   <img
-                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/1200px-X_logo.jpg'
+                    src='/socials/X_logo.png'
                     alt='Twitter'
-                    className='w-10 h-10 sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 relative z-10 rounded-xl cursor-pointer'
+                    className='w-10 h-10 rounded-xl cursor-pointer'
                   />
                   <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/twitter:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     @canon_g_s
                   </span>
                 </a>
                 <a
-                  href='https://www.instagram.com/canon_gs/'
+                  href='https://www.instagram.com/canon.gs/'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='relative group/instagram'
+                  className='relative group/instagram sm:transform sm:rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-2 transition-all duration-200 z-20'
                 >
                   <img
                     src='https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg'
                     alt='Instagram'
-                    className='w-10 h-10 sm:transform sm:rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-2 transition-all duration-200 relative z-20 rounded-xl cursor-pointer'
+                    className='w-10 h-10 rounded-xl cursor-pointer'
                   />
-                  <span className='absolute -top-8 left-1/2 -translate-x-10 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/instagram:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
-                    @canon_gs
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/instagram:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                    @canon.gs
                   </span>
                 </a>
                 <a
                   href='https://www.tiktok.com/@canon__gs'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='relative group/tiktok'
+                  className='relative group/tiktok sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-4 sm:-translate-x-4 transition-all duration-200 z-30'
                 >
                   <img
                     src='https://thumbs.dreamstime.com/b/tiktok-social-media-app-icon-tiktok-social-media-app-icon-square-shape-vector-illustration-269930887.jpg'
                     alt='TikTok'
-                    className='w-10 h-10 sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-4 sm:-translate-x-4 transition-all duration-200 relative z-30 rounded-xl cursor-pointer'
+                    className='w-10 h-10 rounded-xl cursor-pointer'
                   />
-                  <span className='absolute -top-8 left-1/2 -translate-x-8 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/tiktok:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/tiktok:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     @canon__gs
                   </span>
                 </a>
@@ -106,14 +137,14 @@ export default function Home () {
                   href='https://www.linkedin.com/in/canon-samson/'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='relative group/linkedin'
+                  className='relative group/linkedin sm:transform sm:rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-6 sm:-translate-x-6 transition-all duration-200 z-40'
                 >
                   <img
                     src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s'
                     alt='LinkedIn'
-                    className='w-10 h-10 sm:transform sm:rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-6 sm:-translate-x-6 transition-all duration-200 relative z-40 rounded-xl cursor-pointer'
+                    className='w-10 h-10 rounded-xl cursor-pointer'
                   />
-                  <span className='absolute -top-8 left-1/2 -translate-x-2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/linkedin:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/linkedin:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     @canon-samson
                   </span>
                 </a>
@@ -121,7 +152,7 @@ export default function Home () {
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2 mt-8'>
               <span>
-                Curious about my tech stack?{' '}
+                Want to know more about my tech stack?{' '}
                 <a
                   href='https://portfolio.canongss.com/skills'
                   className='text-blue-600 hover:text-purple-600 transition-colors'
@@ -134,12 +165,12 @@ export default function Home () {
               <span>
                 Lastly, I’m also a Co-founder of a startup called{' '}
                 <a
-                  href='https://www.medvive.ng/'
+                  href='https://www.doxahealth.ng/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='text-blue-600 hover:text-purple-600 transition-colors'
                 >
-                  Medvive
+                  Doxa Health
                 </a>
                 <br />   where you can consult with doctors online from the comfort of your
             home.
@@ -159,7 +190,7 @@ export default function Home () {
                 </a>
               </span>
               <span>
-                Want to say hi?{' '}
+                Just want to say hi?{' '}
                 <a
                   href='mailto:samsoncanon2018@gmail.com'
                   className='text-blue-600 hover:text-purple-600 transition-colors'
