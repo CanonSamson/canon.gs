@@ -75,7 +75,7 @@ export default function Home () {
                     alt='Antro'
                     className='w-10 h-10 rounded-xl cursor-pointer'
                   />
-                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/andro:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/antro:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
                     Antro - AI-native budgeting app
                   </span>
                 </a>
