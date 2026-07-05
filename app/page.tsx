@@ -17,7 +17,7 @@ export default function Home () {
               />
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2'>
-              I'm building
+              I&apos;m building
               <span className='inline-flex relative group/antro-focus gap-2 sm:gap-0'>
                 <a
                   href='https://antro.canongs.com/'
