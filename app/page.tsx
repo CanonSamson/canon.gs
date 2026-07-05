@@ -17,6 +17,27 @@ export default function Home () {
               />
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2'>
+              I'm building
+              <span className='inline-flex relative group/antro-focus gap-2 sm:gap-0'>
+                <a
+                  href='https://antro.canongs.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative group/antro-main sm:transform sm:-rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 z-10'
+                >
+                  <img
+                    src='/apps/antro.png'
+                    alt='Antro'
+                    className='w-10 h-10 rounded-xl cursor-pointer'
+                  />
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 sm:group-hover/antro-main:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                    Antro - AI-native budgeting app
+                  </span>
+                </a>
+              </span>
+              to 5K users.
+            </span>
+            <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2'>
               I build mobile/web apps
               <span className='inline-flex relative group/apps gap-2 sm:gap-0'>
                 <a
