@@ -140,7 +140,7 @@ export default function Home () {
                   className='relative group/tiktok sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-4 sm:-translate-x-4 transition-all duration-200 z-30'
                 >
                   <img
-                    src='https://thumbs.dreamstime.com/b/tiktok-social-media-app-icon-tiktok-social-media-app-icon-square-shape-vector-illustration-269930887.jpg'
+                    src='/socials/tiktok-social-media-app-icon-tiktok-social-media-app-icon-square-shape-vector-illustration-269930887.webp'
                     alt='TikTok'
                     className='w-10 h-10 rounded-xl cursor-pointer'
                   />
