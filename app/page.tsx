@@ -23,7 +23,7 @@ export default function Home () {
                   href='https://antro.canongs.com/'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='relative group/antro-main sm:transform sm:-rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 z-10'
+                  className='relative group/antro-main sm:transform sm:-rotate-0 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-0 transition-all duration-200 z-10'
                 >
                   <img
                     src='/apps/antro.png'
@@ -35,7 +35,7 @@ export default function Home () {
                   </span>
                 </a>
               </span>
-              to 5K users.
+              {'  '}to 5K users.
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2'>
               I build mobile/web apps
