@@ -64,6 +64,21 @@ export default function Home () {
                     Ficago - Helping Nigerians access home services faster.
                   </span>
                 </a>
+                <a
+                  href='https://antro.canongs.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='relative group/antro sm:transform sm:rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-6 sm:-translate-x-4 transition-all duration-200 z-40'
+                >
+                  <img
+                    src='/apps/antro.png'
+                    alt='Antro'
+                    className='w-10 h-10 rounded-xl cursor-pointer'
+                  />
+                  <span className='absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white px-2.5 py-1 rounded-xl bg-opacity-80 text-xs opacity-0 group-hover/andro:opacity-100 transition-opacity whitespace-nowrap hidden sm:block'>
+                    Antro - AI-native budgeting app
+                  </span>
+                </a>
               </span>
               
             </span>
