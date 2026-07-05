@@ -199,7 +199,7 @@ export default function Home () {
             </span>
             <span className='inline-flex relative group items-start flex-col sm:flex-row sm:items-center gap-2 mt-8'>
               <span>
-                Lastly, I’m also a Co-founder of a startup called{' '}
+                Lastly, I&apos;m also a Co-founder of a startup called{' '}
                 <a
                   href='https://www.doxahealth.ng/'
                   target='_blank'
