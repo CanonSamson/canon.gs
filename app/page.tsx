@@ -20,7 +20,7 @@ export default function Home () {
               I&apos;m building
               <span className='inline-flex relative group/antro-focus gap-2 sm:gap-0'>
                 <a
-                  href='https://apps.apple.com/ng/app/antro-ai-budgeting-app/id6792458591'
+                  href='https://apps.apple.com/app/antro-ai-budgeting-app/id6792458591'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='relative group/antro-main sm:transform sm:-rotate-0 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-0 transition-all duration-200 z-10'
@@ -86,7 +86,7 @@ export default function Home () {
                   </span>
                 </a>
                 <a
-                  href='https://apps.apple.com/ng/app/antro-ai-budgeting-app/id6792458591'
+                  href='https://apps.apple.com/app/antro-ai-budgeting-app/id6792458591'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='relative group/antro sm:transform sm:rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-6 sm:-translate-x-4 transition-all duration-200 z-40'
