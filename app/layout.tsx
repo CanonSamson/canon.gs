@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import localFont from 'next/font/local'
 import { Analytics } from '@vercel/analytics/react'
+import { MixPanelProvider } from '../contexts/mixpanel'
 
 // Polyfill localStorage for SSR to prevent "localStorage.getItem is not a function"
 if (typeof window === 'undefined') {
@@ -36,7 +37,9 @@ export default function RootLayout ({
   return (
     <html lang='en' className={dmSans.className}>
       <body className={`font-sans antialiased`}>
-        {children}
+        <MixPanelProvider>
+          {children}
+        </MixPanelProvider>
         <Analytics />
       </body>
     </html>

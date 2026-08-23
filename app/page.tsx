@@ -1,8 +1,18 @@
 'use client'
 
 import React from 'react'
+import { useMixPanel } from '../contexts/mixpanel'
 
 export default function Home () {
+  const { trackEvent } = useMixPanel()
+
+  const handleLinkClick = (linkName: string, url: string) => {
+    trackEvent('Link Clicked', {
+      link_name: linkName,
+      destination_url: url,
+      page: 'home'
+    })
+  }
   return (
     <div className='flex flex-col bg-white pt-10 p-8 w-full items-center mt-0 sm:mt-20'>
       <div className='flex flex-row items-center justify-center w-full max-w-[1300px] gap-20'>
@@ -23,6 +33,7 @@ export default function Home () {
                   href='https://apps.apple.com/app/antro-ai-budgeting-app/id6792458591'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Antro App (Primary)', 'https://apps.apple.com/app/antro-ai-budgeting-app/id6792458591')}
                   className='relative group/antro-main sm:transform sm:-rotate-0 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-0 transition-all duration-200 z-10'
                 >
                   <img
@@ -44,6 +55,7 @@ export default function Home () {
                   href='#'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Nigeria Creators', '#')}
                   className='relative group/nigeria-creators sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 z-10'
                 >
                   <img
@@ -59,6 +71,7 @@ export default function Home () {
                   href='https://doxahealth.ng/'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Doxa Health', 'https://doxahealth.ng/')}
                   className='relative group/doxa sm:transform sm:rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-2 transition-all duration-200 z-20'
                 >
                   <img
@@ -74,6 +87,7 @@ export default function Home () {
                   href='#'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Ficago', '#')}
                   className='relative group/ficago sm:transform sm:-rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-4 sm:-translate-x-2 transition-all duration-200 z-30'
                 >
                   <img
@@ -89,6 +103,7 @@ export default function Home () {
                   href='https://apps.apple.com/app/antro-ai-budgeting-app/id6792458591'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Antro App (Secondary)', 'https://apps.apple.com/app/antro-ai-budgeting-app/id6792458591')}
                   className='relative group/antro sm:transform sm:rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-6 sm:-translate-x-4 transition-all duration-200 z-40'
                 >
                   <img
@@ -109,6 +124,7 @@ export default function Home () {
                 href='https://www.youtube.com/@CanonSamson'
                 target='_blank'
                 rel='noopener noreferrer'
+                onClick={() => handleLinkClick('YouTube Channel', 'https://www.youtube.com/@CanonSamson')}
                 className='relative group sm:transform sm:rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-2 transition-all duration-200 z-10'
               >
                 <img
@@ -128,6 +144,7 @@ export default function Home () {
                   href='https://x.com/canon__gs'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Twitter/X', 'https://x.com/canon__gs')}
                   className='relative group/twitter sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 z-10'
                 >
                   <img
@@ -143,6 +160,7 @@ export default function Home () {
                   href='https://www.instagram.com/canon.gs/'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Instagram', 'https://www.instagram.com/canon.gs/')}
                   className='relative group/instagram sm:transform sm:rotate-3 sm:group-hover:rotate-0 sm:group-hover:translate-x-2 transition-all duration-200 z-20'
                 >
                   <img
@@ -158,6 +176,7 @@ export default function Home () {
                   href='https://www.tiktok.com/@canon__gs'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('TikTok', 'https://www.tiktok.com/@canon__gs')}
                   className='relative group/tiktok sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-4 sm:-translate-x-4 transition-all duration-200 z-30'
                 >
                   <img
@@ -173,6 +192,7 @@ export default function Home () {
                   href='https://www.linkedin.com/in/canon-samson/'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('LinkedIn', 'https://www.linkedin.com/in/canon-samson/')}
                   className='relative group/linkedin sm:transform sm:rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-6 sm:-translate-x-6 transition-all duration-200 z-40'
                 >
                   <img
@@ -191,6 +211,7 @@ export default function Home () {
                 Want to know more about my tech stack?{' '}
                 <a
                   href='https://portfolio.canongss.com/skills'
+                  onClick={() => handleLinkClick('Tech Stack Skills', 'https://portfolio.canongss.com/skills')}
                   className='text-blue-600 hover:text-purple-600 transition-colors'
                 >
                   Click here.
@@ -204,6 +225,7 @@ export default function Home () {
                   href='https://www.doxahealth.ng/'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Doxa Health (Text Link)', 'https://www.doxahealth.ng/')}
                   className='text-blue-600 hover:text-purple-600 transition-colors'
                 >
                   Doxa Health
@@ -220,6 +242,7 @@ export default function Home () {
                   href='mailto:samsoncanon2018@gmail.com'
                   target='_blank'
                   rel='noopener noreferrer'
+                  onClick={() => handleLinkClick('Email (Dev Help)', 'mailto:samsoncanon2018@gmail.com')}
                   className='text-blue-600 hover:text-purple-600 transition-colors'
                 >
                   Click here.
@@ -229,6 +252,7 @@ export default function Home () {
                 Just want to say hi?{' '}
                 <a
                   href='mailto:samsoncanon2018@gmail.com'
+                  onClick={() => handleLinkClick('Email (Say Hi)', 'mailto:samsoncanon2018@gmail.com')}
                   className='text-blue-600 hover:text-purple-600 transition-colors'
                 >
                   Click here.
