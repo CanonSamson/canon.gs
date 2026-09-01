@@ -52,10 +52,10 @@ export default function Home () {
               I build mobile/web apps
               <span className='inline-flex relative group/apps gap-2 sm:gap-0'>
                 <a
-                  href='#'
+                  href='https://nigeriacreators.com.ng/'
                   target='_blank'
                   rel='noopener noreferrer'
-                  onClick={() => handleLinkClick('Nigeria Creators', '#')}
+                  onClick={() => handleLinkClick('Nigeria Creators', 'https://nigeriacreators.com.ng/')}
                   className='relative group/nigeria-creators sm:transform sm:-rotate-6 sm:group-hover:rotate-0 sm:group-hover:translate-x-0 sm:translate-x-2 transition-all duration-200 z-10'
                 >
                   <img
